@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href='/stylesheets/style-1.css' rel='stylesheet'>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <nav class="navbar navbar-my navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">FMD</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="<%= active0%>"><a href="/">Home</a></li>
+      <li class="<%= active1%>"><a href="/hero1">Vinni</a></li>
+      <li class="<%= active2%>"><a href="/hero2">Page 2</a></li>
+      <li class="<%= active3%>"><a href="/hero3">Page 3</a></li>
+      <li class="<%= active4%>"><a href="/hero4">Page 4</a></li>
+      <li class="<%= active5%>"><a href="/hero5">Page 5</a></li>
+    </ul>
+  </div>
+</nav>
+  <body>
+    <%- body %><!--не экранированный вывод который позволяет вывести уникальный контент страницы(распознает спецсиволы как спец, и теги как теги)
+-->
+  </body>
+</html>

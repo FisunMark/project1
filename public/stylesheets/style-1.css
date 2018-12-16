@@ -1,0 +1,13 @@
+.navbar-my{
+ background: rgb(240, 0, 0);
+}
+.navbar-my ul li a{
+ color: #fff;
+}
+.navbar-my ul li a:hover{
+ background: #000;
+}
+.navbar-my .navbar-brand{
+ font-weight: 900;
+ color: #000;
+}
